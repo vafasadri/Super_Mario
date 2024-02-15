@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers\Animation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ConvertSketch.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\DrawMap.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Entity.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Global.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Goomba.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Koopa.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MapManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Mario.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Mushroom.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Trampoline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\DeathOrbs.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cannon.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CannonAimDot.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertSketch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Goomba.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Koopa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mushroom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Trampoline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeathOrbs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cannon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CannonAimDot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Super_Mario.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Images\BigMarioBrake.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\BigMarioCrouch.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\BigMarioDeath.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\BigMarioIdle.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\BigMarioJump.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\BigMarioWalk.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\Cannon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\CannonPipe.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\CannonPipeBackground.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\Coin.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\deathorb.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\deathorb_turn_on.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\GoombaDeath.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\GoombaDeath0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\GoombaDeath1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\GoombaWalk.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\KoopaDeath.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\KoopaGetOut.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\KoopaShell.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\KoopaWalk.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\LevelSketch0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\LevelSketch1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\Map.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\MapSketch.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\MarioBrake.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\MarioDeath.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\MarioIdle.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\MarioJump.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\MarioWalk.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\Mushroom.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\QuestionBlock.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\test.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\trampoline.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\UndergroundGoombaDeath0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\UndergroundGoombaDeath1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\UndergroundGoombaWalk.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\UndergroundKoopaDeath.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\UndergroundKoopaGetOut.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\UndergroundKoopaShell.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Images\UndergroundKoopaWalk.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

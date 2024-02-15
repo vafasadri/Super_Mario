@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cannon.hpp" />
+    <ClInclude Include="CannonAimDot.hpp" />
+    <ClInclude Include="Headers\Animation.hpp" />
+    <ClInclude Include="Headers\ConvertSketch.hpp" />
+    <ClInclude Include="Headers\DeathOrbs.hpp" />
+    <ClInclude Include="Headers\DrawMap.hpp" />
+    <ClInclude Include="Headers\Entity.hpp" />
+    <ClInclude Include="Headers\Global.hpp" />
+    <ClInclude Include="Headers\Goomba.hpp" />
+    <ClInclude Include="Headers\Koopa.hpp" />
+    <ClInclude Include="Headers\MapManager.hpp" />
+    <ClInclude Include="Headers\Mario.hpp" />
+    <ClInclude Include="Headers\Mushroom.hpp" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Trampoline.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="Cannon.cpp" />
+    <ClCompile Include="CannonAimDot.cpp" />
+    <ClCompile Include="ConvertSketch.cpp" />
+    <ClCompile Include="DeathOrbs.cpp" />
+    <ClCompile Include="DrawMap.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="Goomba.cpp" />
+    <ClCompile Include="Koopa.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MapManager.cpp" />
+    <ClCompile Include="Mario.cpp" />
+    <ClCompile Include="Mushroom.cpp" />
+    <ClCompile Include="Trampoline.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Super_Mario.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Images\BigMarioBrake.png" />
+    <Image Include="Resources\Images\BigMarioCrouch.png" />
+    <Image Include="Resources\Images\BigMarioDeath.png" />
+    <Image Include="Resources\Images\BigMarioIdle.png" />
+    <Image Include="Resources\Images\BigMarioJump.png" />
+    <Image Include="Resources\Images\BigMarioWalk.png" />
+    <Image Include="Resources\Images\Cannon.png" />
+    <Image Include="Resources\Images\CannonPipe.png" />
+    <Image Include="Resources\Images\CannonPipeBackground.png" />
+    <Image Include="Resources\Images\Coin.png" />
+    <Image Include="Resources\Images\deathorb.png" />
+    <Image Include="Resources\Images\deathorb_turn_on.png" />
+    <Image Include="Resources\Images\GoombaDeath.png" />
+    <Image Include="Resources\Images\GoombaDeath0.png" />
+    <Image Include="Resources\Images\GoombaDeath1.png" />
+    <Image Include="Resources\Images\GoombaWalk.png" />
+    <Image Include="Resources\Images\KoopaDeath.png" />
+    <Image Include="Resources\Images\KoopaGetOut.png" />
+    <Image Include="Resources\Images\KoopaShell.png" />
+    <Image Include="Resources\Images\KoopaWalk.png" />
+    <Image Include="Resources\Images\LevelSketch0.png" />
+    <Image Include="Resources\Images\LevelSketch1.png" />
+    <Image Include="Resources\Images\Map.png" />
+    <Image Include="Resources\Images\MapSketch.png" />
+    <Image Include="Resources\Images\MarioBrake.png" />
+    <Image Include="Resources\Images\MarioDeath.png" />
+    <Image Include="Resources\Images\MarioIdle.png" />
+    <Image Include="Resources\Images\MarioJump.png" />
+    <Image Include="Resources\Images\MarioWalk.png" />
+    <Image Include="Resources\Images\Mushroom.png" />
+    <Image Include="Resources\Images\QuestionBlock.png" />
+    <Image Include="Resources\Images\test.png" />
+    <Image Include="Resources\Images\trampoline.png" />
+    <Image Include="Resources\Images\UndergroundGoombaDeath0.png" />
+    <Image Include="Resources\Images\UndergroundGoombaDeath1.png" />
+    <Image Include="Resources\Images\UndergroundGoombaWalk.png" />
+    <Image Include="Resources\Images\UndergroundKoopaDeath.png" />
+    <Image Include="Resources\Images\UndergroundKoopaGetOut.png" />
+    <Image Include="Resources\Images\UndergroundKoopaShell.png" />
+    <Image Include="Resources\Images\UndergroundKoopaWalk.png" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{c954f2ca-2b74-4735-9e8f-20bee736fdf3}</ProjectGuid>
+    <RootNamespace>SuperMario</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\vafas\source\assets\SFML-2.6.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-window-d.lib;sfml-system-d.lib;sfml-graphics-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\vafas\source\assets\SFML-2.6.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\vafas\source\assets\SFML-2.6.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\vafas\source\assets\SFML-2.6.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-window.lib;sfml-system.lib;sfml-graphics.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
